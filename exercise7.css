@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header .h1{
+  padding: 20px 20px;
+}
+
+.header-image {
+  width: 100%; /* 横幅 */
+  height: 400px; /* 高さ */
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual {
+  width: 100%; /* 横幅 */
+  height: 400px; /* 高さ */
+  /* background-color: orange; 背景色 */
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-content{
+  width: 100%; /* 横幅を指定 */
+  padding: 20px 20px;
+}
+
+main {
+  width: 840px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contents {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #828080;
+}
